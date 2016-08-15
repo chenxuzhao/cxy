@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TrainService</string>
+    <string name="currentCity">Current City:西安</string>
+</resources>

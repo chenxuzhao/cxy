@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_ip">192.168.23.1</string>
+    <string name="stationsListUrl">getStationList</string>
+    <string name="cityIntroduceUrl">getCurentCityInfo</string>
+</resources>

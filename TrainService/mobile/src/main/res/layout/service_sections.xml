@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="center_horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_section_margin">
+
+        <LinearLayout
+
+            android:id="@+id/service_diningHall"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_dining_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_canting"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_diningHall"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_movie_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_dianying"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_movies"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_store_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_shop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_store"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_BookingBerth"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_berth_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_chuang"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_BookingBerth"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+        </LinearLayout>
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/service_section_margin"
+        android:layout_marginRight="@dimen/service_section_margin"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:id="@+id/service_gameHall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_game_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_game"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_gameHall"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/service_liveVideo"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_live_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/icon_zhibo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_liveVideo"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_radio_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_radio"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_radio"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/service_more"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/service_section_margin"
+            android:layout_weight="1"
+            android:background="@color/service_more_main"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/service_section_margin">
+
+            <cn.trainservice.trainservice.view.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_more"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_icon_size" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/service_more"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#FFF"
+                android:textSize="@dimen/section_text_size" />
+        </LinearLayout>
+
+
+    </TableRow>
+
+</TableLayout>
